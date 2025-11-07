@@ -1,13 +1,5 @@
 #include "../Public/Effect.h"
 
-/* Comments from github:
-add some private values, like 
--	"effectStrenght" 
--	"modifier" 
--	"duration" (maybe) 
-ps: I guess they could be in the base class?
-*/
-
 Effect::Effect(const std::string& name) {
 	name = name;
 }
@@ -21,7 +13,7 @@ void Effect::apply() {
 
 	}
 
-	//if (effectStrength < 0) {	// Duration condition vadå?
+	//if (effectStrength < 0) {	// Duration condition vad??
 	//	
 	//}
 
