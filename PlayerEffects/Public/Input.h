@@ -1,13 +1,10 @@
-//
-// Created by hula_ on 2025-11-07.
-//
+#pragma once
 
-#ifndef GAMELAB1_INPUT_H
-#define GAMELAB1_INPUT_H
 
+enum  {none, up,down,left,right, exit, attack, defend ,maxNum,  };
 
 class Input {
+    Input();
+public:
+    void readInput();
 };
-
-
-#endif //GAMELAB1_INPUT_H

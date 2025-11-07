@@ -1,13 +1,13 @@
-//
-// Created by hula_ on 2025-11-07.
-//
+#pragma once
 
-#ifndef GAMELAB1_USERINTERFACE_H
-#define GAMELAB1_USERINTERFACE_H
-
+#include <iostream>
 
 class UserInterface {
+
+public:
+    void update();
+    void print(std::string msg);
+
+private:
+    void updateGraphics();
 };
-
-
-#endif //GAMELAB1_USERINTERFACE_H

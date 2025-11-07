@@ -6,10 +6,10 @@
 
 void GameState::run() {
     while (true/*input->IsRunning()*/) {
-        readInput();
+        input->readInput();
         executePlayerActions();
         executeEnemyActions();
-        //userInterface->SendData();
+        userInterface->update();
     }
 }
 
